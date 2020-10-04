@@ -14,7 +14,7 @@ function setup() {
 function draw() {
   colorMode(RGB);
   background(0, 0, 0, 25);
-  text("Hello Abhay", 150,100);
+  text("Happy birthday Abhay", 150,100);
   if (random(1) < 0.03) {
     fireworks.push(new Firework());
    }
